@@ -1,0 +1,16 @@
+spring:
+  data:
+    mongodb:
+      database: Product
+      host: localhost
+      port: 27017
+
+
+
+#server:
+#  error:
+#    include-binding-errors: on_params
+
+
+server:
+  port: 9292
