@@ -1,0 +1,9 @@
+com\upload\UploadedFileRepository.class
+com\upload\LuceneIndexerService.class
+com\upload\FileUploadController.class
+com\upload\LuceneSearchService.class
+com\upload\UploadedFile.class
+com\upload\TikaService.class
+com\upload\tikaSample.class
+com\upload\UploadApplication.class
+com\upload\FileUtils.class
