@@ -9,11 +9,9 @@ import org.springframework.stereotype.Service;
 public class KafkaProducer {
 
     private KafkaTemplate<String,String> kafkaTemplate;
-
     public KafkaProducer(KafkaTemplate<String, String> kafkaTemplate) {
         this.kafkaTemplate = kafkaTemplate;
     }
-
     public void sendMessage(String message){
         log.info("message sent : "+message);
         kafkaTemplate.send("demotopic",message);
